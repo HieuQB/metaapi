@@ -16,7 +16,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/exyzzy/metaapi/data"
+	"github.com/HieuQB/metaapi/data"
 	pluralize "github.com/gertd/go-pluralize"
 )
 

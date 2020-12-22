@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/exyzzy/metaapi/metasql"
-
+	//"github.com/exyzzy/metaapi/metasql"
+	"github.com/HieuQB/metaapi/metasql"
 	lex "github.com/timtadh/lexmachine"
 )
 

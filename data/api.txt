@@ -9,7 +9,7 @@ package << .Package >>
 // ======= << $table.CapSingName >> =======
 
 //Create Table
-func CreateTable<< $table.CapPlurName >>(db *sql.DB) (err error) {
+func CreateTableAA<< $table.CapPlurName >>(db *sql.DB) (err error) {
 	_, err = db.Exec<< $table.DropTableStatement >>
 	if err != nil {
 		return
@@ -89,7 +89,7 @@ func (<< $table.SingName >> *<< $table.CapSingName >>) Delete<< $table.CapSingNa
 }
 
 //DeleteAll
-func DeleteAll<< $table.CapPlurName >>(db *sql.DB) (err error) {
+func DeleteAllAAAA<< $table.CapPlurName >>(db *sql.DB) (err error) {
 	stmt, err := db.Prepare<< $table.DeleteAllStatement>>
 	if err != nil {
 		return
